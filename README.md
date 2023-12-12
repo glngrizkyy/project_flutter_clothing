@@ -16,4 +16,4 @@ Akun untuk login:
   
 Tampilan
 
-![alt text](https://i.ibb.co/yBYCp36/Untitled-design.png)
+![alt text](https://i.ibb.co/rZy8sWg/Untitled-design-1.png)
