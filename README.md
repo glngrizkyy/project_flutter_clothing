@@ -8,6 +8,10 @@ Penggunaan API
 Cara install dari Repo Clothing One:
 - git clone (url link https)
 - jalan kan function diterminal IDE repo Clothing One "flutter pub run build_runner build --delete-conflicting-outputs"
+
+Akun untuk login:
+- UserName : johnd
+- Password : m38rmF$
 Tampilan
 
 ![alt text](https://i.ibb.co/yBYCp36/Untitled-design.png)
