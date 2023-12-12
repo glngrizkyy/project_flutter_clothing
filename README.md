@@ -3,7 +3,7 @@
 Aplikasi untuk pencari pakaian dan lain lain.
 
 Penggunaan API
-- FakeStoreAPIÏ
+- FakeStoreAPI
 
 Tampilan
 
