@@ -147,7 +147,7 @@ class _ListingCartState extends State<ListingCart> {
                                               BorderRadius.circular(6),
                                         ),
                                         child: Padding(
-                                          padding: const EdgeInsets.all(6),
+                                          padding: const EdgeInsets.all(0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.min,
                                             children: [
@@ -160,12 +160,17 @@ class _ListingCartState extends State<ListingCart> {
                                                         decrementQuantity(
                                                             index);
                                                       },
-                                                child: FaIcon(
-                                                  product.quantity == 1
-                                                      ? FontAwesomeIcons.trash
-                                                      : FontAwesomeIcons.minus,
-                                                  color: blackColor,
-                                                  size: 14,
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.all(6),
+                                                  child: FaIcon(
+                                                    product.quantity == 1
+                                                        ? FontAwesomeIcons.trash
+                                                        : FontAwesomeIcons
+                                                            .minus,
+                                                    color: blackColor,
+                                                    size: 14,
+                                                  ),
                                                 ),
                                               ),
                                               const Gap(20),
@@ -175,10 +180,14 @@ class _ListingCartState extends State<ListingCart> {
                                                 onTap: () {
                                                   incrementQuantity(index);
                                                 },
-                                                child: FaIcon(
-                                                  FontAwesomeIcons.plus,
-                                                  color: blackColor,
-                                                  size: 14,
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.all(6),
+                                                  child: FaIcon(
+                                                    FontAwesomeIcons.plus,
+                                                    color: blackColor,
+                                                    size: 14,
+                                                  ),
                                                 ),
                                               ),
                                             ],

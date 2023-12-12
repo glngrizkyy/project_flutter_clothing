@@ -254,27 +254,20 @@ class _LoginPageState extends State<LoginPage> {
                         Align(
                           alignment: Alignment.topLeft,
                           child: Text(
-                            "Sign in to Partner Dashboard",
+                            "Sign in to Clothing One's",
                             style: blackTextStyle.copyWith(
                                 fontWeight: bold, fontSize: 16),
                           ),
                         ),
-                        SizedBox(height: 5.h),
-                        Align(
-                          alignment: Alignment.topLeft,
-                          child: Text(
-                            "Your Education Partner",
-                            style: blackTextStyle.copyWith(
-                                fontWeight: medium, fontSize: 12),
-                          ),
-                        ),
+                        // SizedBox(height: 5.h),
                         SizedBox(height: 25.h),
                         emailForm(),
                         passwordForm(),
-                        Align(
-                          alignment: Alignment.topRight,
-                          child: forgetPassword(),
-                        ),
+                        // Align(
+                        //   alignment: Alignment.topRight,
+                        //   child: forgetPassword(),
+                        // ),
+                        SizedBox(height: 25.h),
                         buttonLogin()
                       ],
                     ),
